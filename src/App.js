@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Route, Routes, BrowserRouter } from "react-router-dom";
 
-function App() {
+import Home from "./pages/Home";
+import Work from "./pages/Work";
+import Projects from "./pages/Projects";
+import Latin from "./pages/Latin";
+import EducationAndSkills from "./pages/EducationAndSkills";
+import LoadingPage from "./pages/LoadingPage";
+
+/**
+ * App constructor for this site.
+ * @returns website app
+ */
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <BrowserRouter>
+        <Routes>
+          <Route exact path={"/"} element={<LoadingPage />} />
+          <Route exact path={"/home"} element={<Home />} />
+          <Route exact path={"/work-experience"} element={<Work/>} />
+          <Route exact path={"/education-and-skills"} element={<EducationAndSkills />} />
+          <Route exact path={"/projects"} element={<Projects/>} />
+          <Route exact path={"/latin-translations"} element={<Latin/>} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
-}
+};
 
 export default App;
