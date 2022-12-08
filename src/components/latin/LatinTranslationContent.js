@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react';
 import PropTypes from 'prop-types';
 
-import { Typography,  Layout } from "antd";
+import { Typography, Layout } from 'antd';
 import styled from 'styled-components';
 
 const { Content } = Layout;
@@ -17,24 +17,26 @@ const LatinTranslationContent = ({ lines }) => {
     <PoemContainer>
       {lines.map((line, index) => (
         <div>
-         <PoemLine key={index} shouldIndent={index % 2 === 1}>{line}</PoemLine>
-         <br />
+          <PoemLine key={index} shouldIndent={index % 2 === 1}>
+            {line}
+          </PoemLine>
+          <br />
         </div>
       ))}
     </PoemContainer>
-  )
+  );
 };
 
 const PoemContainer = styled(Content)`
   margin: 25px;
-`
+`;
 
 const PoemLine = styled(Text)`
-  margin-left: ${props => (props.shouldIndent ? '10px' : 0)};
-`
+  margin-left: ${(props) => (props.shouldIndent ? '10px' : 0)};
+`;
 
 LatinTranslationContent.propTypes = {
   lines: PropTypes.array,
-}
+};
 
 export default LatinTranslationContent;

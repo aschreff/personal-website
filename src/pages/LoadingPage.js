@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState } from 'react';
 
-import { Layout, Typography, Spin } from "antd";
+import { Layout, Typography, Spin } from 'antd';
 import { LoadingOutlined } from '@ant-design/icons';
-import styled from "styled-components";
+import styled from 'styled-components';
 
 const { Content } = Layout;
 const { Title } = Typography;
@@ -13,25 +13,47 @@ const { Title } = Typography;
  * @returns JSX component of a fake loading page
  */
 const LoadingPage = () => {
-
-  const [loadingMessage, setLoadingMessage] = useState('Hello, welcome to my personal website...')
+  const [loadingMessage, setLoadingMessage] = useState(
+    'Hello, welcome to my personal website...'
+  );
 
   useEffect(() => {
-    setTimeout(() => setLoadingMessage('Please wait while we are fetching data...'), 5000);
-    setTimeout(() => setLoadingMessage('Just kidding, there\'s no data to fetch, this is a static website...'), 10000);
-    setTimeout(() => setLoadingMessage('But if there was data to fetch, this would be what it would look like...'), 15000);
-    setTimeout(() => setLoadingMessage('Anyways, sorry for being annoying, this site will open soon...'), 20000);
-    setTimeout(() => window.location.href = '/home', 25000)
-  }, [])
+    setTimeout(
+      () => setLoadingMessage('Please wait while we are fetching data...'),
+      5000
+    );
+    setTimeout(
+      () =>
+        setLoadingMessage(
+          "Just kidding, there's no data to fetch, this is a static website..."
+        ),
+      10000
+    );
+    setTimeout(
+      () =>
+        setLoadingMessage(
+          'But if there was data to fetch, this would be what it would look like...'
+        ),
+      15000
+    );
+    setTimeout(
+      () =>
+        setLoadingMessage(
+          'Anyways, sorry for being annoying, this site will open soon...'
+        ),
+      20000
+    );
+    setTimeout(() => (window.location.href = '/home'), 25000);
+  }, []);
 
   return (
     <FullScreenLayout>
       <StyledContent>
         <Title level={2}>{loadingMessage}</Title>
-        <Spin indicator={<StyledSpinner />}/>
+        <Spin indicator={<StyledSpinner />} />
       </StyledContent>
     </FullScreenLayout>
-  )
+  );
 };
 
 const FullScreenLayout = styled(Layout)`
@@ -40,15 +62,15 @@ const FullScreenLayout = styled(Layout)`
   min-height: 100vh;
   overflow: hidden;
   text-align: center;
-`
+`;
 
 const StyledContent = styled(Content)`
- margin-top: 10rem;
-`
+  margin-top: 10rem;
+`;
 
 const StyledSpinner = styled(LoadingOutlined)`
   font-size: 40px;
   color: black;
-`
+`;
 
 export default LoadingPage;

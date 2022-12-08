@@ -1,18 +1,20 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 
-import { Menu } from "antd";
-import HomeOutlined from "@ant-design/icons/lib/icons/HomeOutlined";
-import DesktopOutlined from "@ant-design/icons/lib/icons/DesktopOutlined";
-import BookOutlined from "@ant-design/icons/lib/icons/BookOutlined";
-import ToolOutlined from "@ant-design/icons/lib/icons/ToolOutlined";
-import BankOutlined from "@ant-design/icons/lib/icons/BankOutlined";
+import { Menu } from 'antd';
+import HomeOutlined from '@ant-design/icons/lib/icons/HomeOutlined';
+import DesktopOutlined from '@ant-design/icons/lib/icons/DesktopOutlined';
+import BookOutlined from '@ant-design/icons/lib/icons/BookOutlined';
+import ToolOutlined from '@ant-design/icons/lib/icons/ToolOutlined';
+import BankOutlined from '@ant-design/icons/lib/icons/BankOutlined';
 
 /**
  * Component for the side bar navigation section of the site.
  * @returns JSX component of a Menu for navigation.
  */
 const SidebarNavigation = () => {
-  const [selectedKeys, setSelectedKeys] = useState([window.location.pathname.slice(1)]);
+  const [selectedKeys, setSelectedKeys] = useState([
+    window.location.pathname.slice(1),
+  ]);
 
   const redirectToPage = (relativeUrl) => {
     setSelectedKeys([relativeUrl]);
@@ -24,7 +26,7 @@ const SidebarNavigation = () => {
       mode={'vertical'}
       theme={'dark'}
       selectedKeys={selectedKeys}
-      onSelect={({key}) => redirectToPage(key)}
+      onSelect={({ key }) => redirectToPage(key)}
     >
       <Menu.Item key={'home'} icon={<HomeOutlined />}>
         Home
@@ -42,7 +44,7 @@ const SidebarNavigation = () => {
         Latin Translations
       </Menu.Item>
     </Menu>
-  );  
+  );
 };
 
 export default SidebarNavigation;

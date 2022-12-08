@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react';
 
-import { Layout } from "antd";
-import styled from "styled-components";
+import { Layout } from 'antd';
+import styled from 'styled-components';
 
 const { Footer } = Layout;
 
@@ -10,18 +10,14 @@ const { Footer } = Layout;
  * @returns JSX footer component
  */
 const CustomFooter = () => {
-  return (
-    <StyledFooter>
-      Developed by Andrew Schreffler, 2022
-    </StyledFooter>
-  );  
+  return <StyledFooter>Developed by Andrew Schreffler, 2022</StyledFooter>;
 };
 
 const StyledFooter = styled(Footer)`
   text-align: center;
   &.ant-layout-footer {
-    background-color: #EEEEEE;
+    background-color: #eeeeee;
   }
-`
+`;
 
 export default CustomFooter;

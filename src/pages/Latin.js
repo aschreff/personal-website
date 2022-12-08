@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 
-import Page from "./Page";
-import LatinTranslationContent from "../components/latin/LatinTranslationContent";
+import Page from './Page';
+import LatinTranslationContent from '../components/latin/LatinTranslationContent';
 
-import { Row, Col, Typography, Image, Menu } from "antd";
-import styled from "styled-components";
+import { Row, Col, Typography, Image, Menu } from 'antd';
+import styled from 'styled-components';
 
 const { Paragraph } = Typography;
 
@@ -13,7 +13,6 @@ const { Paragraph } = Typography;
  * @returns JSX component of my translation of Ovid's works
  */
 const Latin = () => {
-
   const [selectedKeys, setSelectedKeys] = useState(['1']);
 
   const ArsAmatoriaBookOneLines = [
@@ -21,6 +20,7 @@ const Latin = () => {
     'He should read this and, having learned by reading, he may love',
     'By this art, ships may be moved more swiftly than by oar or sail',
     'By this art, a chariot is lighter, by this art, love must be ruled',
+    '...',
   ];
 
   const ArsAmatoriaBookTwoLines = [
@@ -28,20 +28,27 @@ const Latin = () => {
     'The prized treasure has fallen into my traps',
     'The prosperous lover lends my poems with a fresh palm',
     'Having been preferred to Hesiod and old Homer',
+    '...',
   ];
 
   const ArsAmatoriaBookThreeLines = [
+    '...',
+    '...',
     'How I almost forgot to warn, that your armpits shall not stink',
     'Of a savage, goat smell, nor shall your legs be hairy',
     'But I don not teach Caucasian girls',
     'Who drink the waters of the Mysian River',
+    '...',
   ];
 
   const RemediaAmorisLines = [
+    '...',
+    '...',
     'Of course, "I enourage you to have two lovers at the same time',
     'And if you are brave, you might even have more',
     'When a divided heart is called by two different girls',
     'One love always absorbs the strength of the other',
+    '...',
   ];
 
   return (
@@ -57,10 +64,12 @@ const Latin = () => {
         </ImageContainer>
         <LatinOverview span={18}>
           <Paragraph>
-            One of my interests is Latin. My favorite poet is Ovid, who wrote such works as Metamorphoses, Ars
-            Amatoria, Amores, and Remedia Amoris. In my free time, I like to create original translations of his works.
-            Currently, I am finished with Ars Amatoria Book I, most of Ars Amatoria Book II, and a small portions of Ars
-            Amatoria Book III and Remedia Amoris. You can check out my progress below.
+            One of my interests is Latin. My favorite poet is Ovid, who wrote
+            such works as Metamorphoses, Ars Amatoria, Amores, and Remedia
+            Amoris. In my free time, I like to create original translations of
+            his works. Currently, I am finished with Ars Amatoria Book I, most
+            of Ars Amatoria Book II, and a small portions of Ars Amatoria Book
+            III and Remedia Amoris. You can check out my progress below.
           </Paragraph>
         </LatinOverview>
       </Row>
@@ -69,20 +78,12 @@ const Latin = () => {
           <Menu
             mode={'horizontal'}
             selectedKeys={selectedKeys}
-            onSelect={({key}) => setSelectedKeys([key])}
+            onSelect={({ key }) => setSelectedKeys([key])}
           >
-            <Menu.Item key={1}>
-              Ars Amatoria, Book I
-            </Menu.Item>
-            <Menu.Item key={2}>
-              Ars Amatoria, Book II
-            </Menu.Item>
-            <Menu.Item key={3}>
-              Ars Amatoria, Book III
-            </Menu.Item>
-            <Menu.Item key={4}>
-              Remedia Amoris
-            </Menu.Item>
+            <Menu.Item key={1}>Ars Amatoria, Book I</Menu.Item>
+            <Menu.Item key={2}>Ars Amatoria, Book II</Menu.Item>
+            <Menu.Item key={3}>Ars Amatoria, Book III</Menu.Item>
+            <Menu.Item key={4}>Remedia Amoris</Menu.Item>
           </Menu>
         </Col>
       </Row>
@@ -99,15 +100,15 @@ const Latin = () => {
         <LatinTranslationContent lines={RemediaAmorisLines} />
       )}
     </Page>
-  )
-}
+  );
+};
 
 const ImageContainer = styled(Col)`
   text-align: center;
-`
+`;
 
 const LatinOverview = styled(Col)`
   margin: auto;
-`
+`;
 
 export default Latin;

@@ -10,6 +10,10 @@ Javascript, I didn't feel there was a need to use TypeScript for a static app li
 3. Run `npm start`
 4. The app should start running at localhost:3000.
 
+## Prettier
+
+This app uses prettier to streamline code style / spacing.
+
 ## Ant Design
 
 I use the Ant Design component library for this project. 
