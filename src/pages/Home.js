@@ -19,7 +19,7 @@ const Home = () => {
   return (
     <Page title={'Andrew Schreffler'}>
       <TopRow>
-        <ImageContainer span={12}>
+        <ImageContainer xs={24} sm={24} md={24} lg={12} xl={12} xxl={12}>
           <StyledImage
             src={'/imgs/cover-photo.jpg'}
             preview={false}
@@ -27,7 +27,7 @@ const Home = () => {
             height={300}
           />
         </ImageContainer>
-        <OverviewColumn span={12}>
+        <OverviewColumn xs={24} sm={24} md={24} lg={12} xl={12} xxl={12}>
           <Title level={3}>Software Engineer</Title>
           <Divider />
           <Paragraph>
@@ -43,20 +43,33 @@ const Home = () => {
           </Paragraph>
         </OverviewColumn>
       </TopRow>
-      <IconRow>
-        <StyledWorkIcon
-          onClick={() => (window.location.href = '/work-experience')}
-        />
-        <StyledEducationIcon
-          onClick={() => (window.location.href = '/education-and-skills')}
-        />
-        <StyledProjectIcon
-          onClick={() => (window.location.href = '/projects')}
-        />
-        <StyledLatinIcon
-          onClick={() => (window.location.href = '/latin-translations')}
-        />
-      </IconRow>
+      <Row justify={'space-between'}>
+        <Col
+          md={{ offset: 4, span: 4 }}
+          lg={{ offset: 4, span: 4 }}
+          xl={{ offset: 4, span: 4 }}
+          xxl={{ offset: 4, span: 4 }}
+        >
+          <StyledWorkIcon
+            onClick={() => (window.location.href = '/work-experience')}
+          />
+        </Col>
+        <Col md={4} lg={4} xl={4} xxl={4}>
+          <StyledEducationIcon
+            onClick={() => (window.location.href = '/education-and-skills')}
+          />
+        </Col>
+        <Col md={4} lg={4} xl={4} xxl={4}>
+          <StyledProjectIcon
+            onClick={() => (window.location.href = '/projects')}
+          />
+        </Col>
+        <Col md={4} lg={4} xl={4} xxl={4}>
+          <StyledLatinIcon
+            onClick={() => (window.location.href = '/latin-translations')}
+          />
+        </Col>
+      </Row>
     </Page>
   );
 };
@@ -70,16 +83,8 @@ const StyledImage = styled(Image)`
   border: 2px solid black;
 `;
 
-const IconRow = styled(Row)`
-  display: flex;
-  justify-content: space-between;
-  margin-right: 20rem;
-  margin-left: 20rem;
-  margin-top: 8rem;
-`;
-
 const TopRow = styled(Row)`
-  margin: 5rem 2rem 5rem 2rem;
+  margin: 5rem 2rem 8rem 2rem;
 `;
 
 const OverviewColumn = styled(Col)`

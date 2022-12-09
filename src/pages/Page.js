@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
+import debounce from 'lodash.debounce';
 
 import SidebarNavigation from '../components/global/SidebarNavigation';
 import CustomFooter from '../components/global/CustomFooter';
@@ -12,6 +13,8 @@ import styled from 'styled-components';
 const { Header, Sider, Content } = Layout;
 const { Title } = Typography;
 
+const MAX_WIDTH_FOR_COLLAPSED_BY_DEFAULT = 576;
+
 /**
  * General page component all pages use, includes a side bar, footer, and header
  * @param children JSX elements, any children passed in to be wrapped in the page
@@ -20,6 +23,19 @@ const { Title } = Typography;
  */
 const Page = ({ children, title }) => {
   const [collapsed, setCollapsed] = useState(false);
+
+  const setCollapsedIfNecessary = debounce(() => {
+    if (window.innerWidth < MAX_WIDTH_FOR_COLLAPSED_BY_DEFAULT && !collapsed) {
+      setCollapsed(true);
+    } else if (
+      window.innerWidth > MAX_WIDTH_FOR_COLLAPSED_BY_DEFAULT &&
+      collapsed
+    ) {
+      setCollapsed(false);
+    }
+  }, 500);
+
+  window.addEventListener('resize', setCollapsedIfNecessary);
 
   return (
     <FullScreenLayout>
@@ -30,29 +46,33 @@ const Page = ({ children, title }) => {
         width={250}
       >
         <Image src={'/imgs/logo.png'} preview={false} />
-        <Row>
-          <Col span={24}>
-            <SiderTitle level={4}>Andrew Schreffler</SiderTitle>
-          </Col>
-        </Row>
-        <IconRow>
-          <LinkedInIcon
-            onClick={() =>
-              window.open(
-                'https://www.linkedin.com/in/andrew-schreffler/',
-                '_blank'
-              )
-            }
-          />
-          <ResumeIcon
-            onClick={() =>
-              window.open(
-                'https://drive.google.com/file/d/1T3THzZC1cNXNu46UVrNYLGCkmU8yMtHu/view?usp=sharing',
-                '_blank'
-              )
-            }
-          />
-        </IconRow>
+        {!collapsed && (
+          <>
+            <Row>
+              <Col span={24}>
+                <SiderTitle level={4}>Andrew Schreffler</SiderTitle>
+              </Col>
+            </Row>
+            <IconRow>
+              <LinkedInIcon
+                onClick={() =>
+                  window.open(
+                    'https://www.linkedin.com/in/andrew-schreffler/',
+                    '_blank'
+                  )
+                }
+              />
+              <ResumeIcon
+                onClick={() =>
+                  window.open(
+                    'https://drive.google.com/file/d/1T3THzZC1cNXNu46UVrNYLGCkmU8yMtHu/view?usp=sharing',
+                    '_blank'
+                  )
+                }
+              />
+            </IconRow>
+          </>
+        )}
         <SidebarNavigation />
       </Sider>
       <Layout>
@@ -76,7 +96,7 @@ const FullScreenLayout = styled(Layout)`
 const StyledHeader = styled(Header)`
   text-align: center;
   &.ant-layout-header {
-    background-color: #eeeeee;
+    background-color: rgb(243, 243, 243);
   }
 `;
 

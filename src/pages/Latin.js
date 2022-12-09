@@ -54,7 +54,7 @@ const Latin = () => {
   return (
     <Page title={'Latin Translations'}>
       <Row>
-        <ImageContainer span={6}>
+        <ImageContainer xs={24} sm={24} md={12} lg={8} xl={6} xxl={6}>
           <Image
             src={'/imgs/ovid.jpg'}
             preview={false}
@@ -62,7 +62,7 @@ const Latin = () => {
             height={200}
           />
         </ImageContainer>
-        <LatinOverview span={18}>
+        <LatinOverview xs={24} sm={24} md={12} lg={16} xl={18} xxl={18}>
           <Paragraph>
             One of my interests is Latin. My favorite poet is Ovid, who wrote
             such works as Metamorphoses, Ars Amatoria, Amores, and Remedia
@@ -105,6 +105,7 @@ const Latin = () => {
 
 const ImageContainer = styled(Col)`
   text-align: center;
+  padding: 10px;
 `;
 
 const LatinOverview = styled(Col)`

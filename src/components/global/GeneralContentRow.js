@@ -25,31 +25,39 @@ const GeneralContentRow = ({
   link,
 }) => {
   return (
-    <Row>
+    <Row justify={'space-between'}>
       {image && (
-        <Col span={4}>
+        <Col md={8} lg={6} xl={4} xxl={4}>
           <Image src={image} height={150} width={150} preview={false} />
         </Col>
       )}
-      <Col span={image ? 20 : 24}>
+      <Col
+        md={image ? 16 : 24}
+        lg={image ? 18 : 24}
+        xl={image ? 20 : 24}
+        xxl={image ? 20 : 24}
+      >
         <Title level={3}>
           {title} {position && ' | ' + position} {year && ' | ' + year}{' '}
           {link && <LinkOutlined onClick={() => window.open(link, '_blank')} />}
         </Title>
         <Divider />
         {descriptions.map((description, i) => {
-          if (description.type === 'paragraph') {
-            return <Paragraph key={i}>{description.content}</Paragraph>;
-          } else if (description.type === 'list') {
-            return (
-              <List
-                bordered
-                dataSource={description.content}
-                renderItem={(item) => <List.Item>{item}</List.Item>}
-              />
-            );
-          } else if (description.type === 'tags') {
-            return <Paragraph>{[...description.content]}</Paragraph>;
+          switch (description.type) {
+            case 'paragraph':
+              return <Paragraph key={i}>{description.content}</Paragraph>;
+            case 'list':
+              return (
+                <List
+                  bordered
+                  dataSource={description.content}
+                  renderItem={(item) => <List.Item>{item}</List.Item>}
+                />
+              );
+            case 'tags':
+              return <Paragraph>{[...description.content]}</Paragraph>;
+            default:
+              return <Paragraph key={i}>{description.content}</Paragraph>;
           }
         })}
       </Col>
