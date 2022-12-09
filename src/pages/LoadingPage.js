@@ -20,30 +20,23 @@ const LoadingPage = () => {
   useEffect(() => {
     setTimeout(
       () => setLoadingMessage('Please wait while we are fetching data...'),
-      5000
+      4000
     );
     setTimeout(
       () =>
         setLoadingMessage(
-          "Just kidding, there's no data to fetch, this is a static website..."
+          "Just kidding, there's no data to fetch, but if there was, this would be what it would look like..."
         ),
-      10000
+      8000
     );
     setTimeout(
       () =>
         setLoadingMessage(
-          'But if there was data to fetch, this would be what it would look like...'
+          'Alright, directing you to the home page now...'
         ),
-      15000
+      12000
     );
-    setTimeout(
-      () =>
-        setLoadingMessage(
-          'Anyways, sorry for being annoying, this site will open soon...'
-        ),
-      20000
-    );
-    setTimeout(() => (window.location.href = '/home'), 25000);
+    setTimeout(() => (window.location.href = '/home'), 14000);
   }, []);
 
   return (
