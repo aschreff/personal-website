@@ -30,10 +30,7 @@ const LoadingPage = () => {
       8000
     );
     setTimeout(
-      () =>
-        setLoadingMessage(
-          'Alright, directing you to the home page now...'
-        ),
+      () => setLoadingMessage('Alright, directing you to the home page now...'),
       12000
     );
     setTimeout(() => (window.location.href = '/home'), 14000);
