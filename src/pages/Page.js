@@ -22,7 +22,9 @@ const MAX_WIDTH_FOR_COLLAPSED_BY_DEFAULT = 576;
  * @returns JSX component, page structure wrapping an page content
  */
 const Page = ({ children, title }) => {
-  const [collapsed, setCollapsed] = useState(false);
+  const [collapsed, setCollapsed] = useState(
+    window.innerWidth < MAX_WIDTH_FOR_COLLAPSED_BY_DEFAULT
+  );
 
   const setCollapsedIfNecessary = debounce(() => {
     if (window.innerWidth < MAX_WIDTH_FOR_COLLAPSED_BY_DEFAULT && !collapsed) {
