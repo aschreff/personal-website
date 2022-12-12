@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styled from 'styled-components';
 
 import { Row, Col, Image, Typography, Divider, List } from 'antd';
 import LinkOutlined from '@ant-design/icons/lib/icons/LinkOutlined';
@@ -27,9 +28,9 @@ const GeneralContentRow = ({
   return (
     <Row justify={'space-between'}>
       {image && (
-        <Col md={8} lg={6} xl={4} xxl={4}>
+        <ImageCol md={8} lg={6} xl={4} xxl={4}>
           <Image src={image} height={150} width={150} preview={false} />
-        </Col>
+        </ImageCol>
       )}
       <Col
         md={image ? 16 : 24}
@@ -49,13 +50,14 @@ const GeneralContentRow = ({
             case 'list':
               return (
                 <List
+                  key={i}
                   bordered
                   dataSource={description.content}
-                  renderItem={(item) => <List.Item>{item}</List.Item>}
+                  renderItem={(item) => <List.Item key={i}>{item}</List.Item>}
                 />
               );
             case 'tags':
-              return <Paragraph>{[...description.content]}</Paragraph>;
+              return <Paragraph key={i}>{[...description.content]}</Paragraph>;
             default:
               return <Paragraph key={i}>{description.content}</Paragraph>;
           }
@@ -64,6 +66,11 @@ const GeneralContentRow = ({
     </Row>
   );
 };
+
+const ImageCol = styled(Col)`
+  margin-right: auto;
+  margin-left: auto;
+`;
 
 GeneralContentRow.propTypes = {
   title: PropTypes.string,

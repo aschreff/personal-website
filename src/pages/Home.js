@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useState } from 'react';
+import debounce from 'lodash.debounce';
 
 import Page from './Page';
 
@@ -11,11 +12,25 @@ import styled from 'styled-components';
 
 const { Paragraph, Title } = Typography;
 
+const MAX_WIDTH_FOR_COLLAPSED_BY_DEFAULT = 615;
+
 /**
  * Home page of site including a brief intro, picture, and links to other pages
  * @returns JSX component of home page
  */
 const Home = () => {
+  const [smallScreen, setSmallScreen] = useState(
+    window.innerWidth < MAX_WIDTH_FOR_COLLAPSED_BY_DEFAULT
+  );
+
+  const smallScreenCallback = debounce(
+    () =>
+      setSmallScreen(window.innerWidth < MAX_WIDTH_FOR_COLLAPSED_BY_DEFAULT),
+    500
+  );
+
+  window.addEventListener('resize', smallScreenCallback);
+
   return (
     <Page title={'Andrew Schreffler'}>
       <TopRow>
@@ -23,8 +38,8 @@ const Home = () => {
           <StyledImage
             src={'/imgs/cover-photo.jpg'}
             preview={false}
-            width={300}
-            height={300}
+            width={smallScreen ? 200 : 300}
+            height={smallScreen ? 200 : 300}
           />
         </ImageContainer>
         <OverviewColumn xs={24} sm={24} md={24} lg={12} xl={12} xxl={12}>

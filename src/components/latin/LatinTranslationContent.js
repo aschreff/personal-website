@@ -16,10 +16,8 @@ const LatinTranslationContent = ({ lines }) => {
   return (
     <PoemContainer>
       {lines.map((line, index) => (
-        <div>
-          <PoemLine key={index} shouldIndent={index % 2 === 1}>
-            {line}
-          </PoemLine>
+        <div key={index}>
+          <Text>{line}</Text>
           <br />
         </div>
       ))}
@@ -29,10 +27,6 @@ const LatinTranslationContent = ({ lines }) => {
 
 const PoemContainer = styled(Content)`
   margin: 25px;
-`;
-
-const PoemLine = styled(Text)`
-  margin-left: ${(props) => (props.shouldIndent ? '10px' : 0)};
 `;
 
 LatinTranslationContent.propTypes = {
