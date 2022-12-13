@@ -67,7 +67,7 @@ const Page = ({ children, title }) => {
               <ResumeIcon
                 onClick={() =>
                   window.open(
-                    'https://drive.google.com/file/d/1tMkoYkjRO-JRP78OoIWpnlK57d5gf8kl/view?usp=share_link',
+                    'https://drive.google.com/file/d/1Km9ZjXYPW53sm07bbM71pT1CO4KOjSk3/view?usp=sharing',
                     '_blank'
                   )
                 }
