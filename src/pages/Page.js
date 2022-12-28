@@ -25,6 +25,9 @@ const Page = ({ children, title }) => {
   const [collapsed, setCollapsed] = useState(
     window.innerWidth < MAX_WIDTH_FOR_COLLAPSED_BY_DEFAULT
   );
+  const [collapsible, setCollapsible] = useState(
+    window.innerWidth > MAX_WIDTH_FOR_COLLAPSED_BY_DEFAULT
+  );
 
   const setCollapsedIfNecessary = debounce(() => {
     if (window.innerWidth < MAX_WIDTH_FOR_COLLAPSED_BY_DEFAULT && !collapsed) {
@@ -35,6 +38,8 @@ const Page = ({ children, title }) => {
     ) {
       setCollapsed(false);
     }
+
+    setCollapsible(window.innerWidth > MAX_WIDTH_FOR_COLLAPSED_BY_DEFAULT);
   }, 500);
 
   window.addEventListener('resize', setCollapsedIfNecessary);
@@ -42,7 +47,7 @@ const Page = ({ children, title }) => {
   return (
     <FullScreenLayout>
       <Sider
-        collapsible
+        collapsible={collapsible}
         collapsed={collapsed}
         onCollapse={(value) => setCollapsed(value)}
         width={250}
