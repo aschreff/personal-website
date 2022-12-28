@@ -10,7 +10,9 @@ const { Footer } = Layout;
  * @returns JSX footer component
  */
 const CustomFooter = () => {
-  return <StyledFooter>Developed by Andrew Schreffler, Version 1.0.6</StyledFooter>;
+  return (
+    <StyledFooter>Developed by Andrew Schreffler, Version 1.0.6</StyledFooter>
+  );
 };
 
 const StyledFooter = styled(Footer)`
