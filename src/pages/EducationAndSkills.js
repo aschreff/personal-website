@@ -50,6 +50,7 @@ const EducationAndSkills = () => {
             <StyledTag color={'red'}>TypeScript</StyledTag>,
             <StyledTag color={'red'}>HTML</StyledTag>,
             <StyledTag color={'red'}>CSS</StyledTag>,
+            <StyledTag color={'red'}>GraphQL</StyledTag>,
             <StyledTag color={'red'}>PHP</StyledTag>,
             <StyledTag color={'red'}>MATLAB</StyledTag>,
 
