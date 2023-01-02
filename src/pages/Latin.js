@@ -54,7 +54,7 @@ const Latin = () => {
     'You, a soldier, who now comes for the first time into these new arms.',
     'After that, the next task if to win over a girl by satifsying her,',
     'Thirdly, that we make that love last a long time.',
-    ''
+    '...',
   ];
 
   const ArsAmatoriaBookTwoLines = [
