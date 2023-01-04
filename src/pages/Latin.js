@@ -156,15 +156,15 @@ const Latin = () => {
     'Nor must a sign be acknowledged by you, with a nod.',
     'Sit close by your woman, with nothing forbidding,',
     'Bring yours to her thigh, which you can hold all the while.',
-    'And better, even if you don\'t wish, the line forces her close,',
+    "And better, even if you don't wish, the line forces her close,",
     'So she must be touched by you, by the nature of the place.',
     'Here friends should be sought by you with the origin of talk,',
     'And let public words move your first songs.',
     'Let yourself inquirely, eagerly, whose horses are arriving,',
-    'And don\'t delay, favor what she favors, whatever it may be.',
+    "And don't delay, favor what she favors, whatever it may be.",
     'But when the crowded procession of ivory gods will go by,',
     'Applaud with your hand favoring your mistress, Venus.',
-    'And as it happens, if by chance dust has sprayed into your girl\'s warmth,',
+    "And as it happens, if by chance dust has sprayed into your girl's warmth,",
     'It must be case out with your fingers.',
     'And if there was no dust, cast out nothing,',
     'Let anything be a proper cause for your service.',
@@ -173,10 +173,10 @@ const Latin = () => {
     'Immediately, a reward for your service, with the girl allowing,',
     'They touch their legs, which should be seen by your eyes',
     'In addition, look back and some man will sit behind you with whomever,',
-    'Don\'t let him press her soft baackside with his opposite knee.',
+    "Don't let him press her soft baackside with his opposite knee.",
     'Small matters captivate light minds, it was useful to many,',
     'To have arranged her cushion with a gentle hand.',
-    '161'
+    '161',
   ];
 
   const ArsAmatoriaBookTwoLines = [
