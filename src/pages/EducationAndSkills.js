@@ -61,6 +61,9 @@ const EducationAndSkills = () => {
             <StyledTag color={'cyan'}>AngularJS</StyledTag>,
             <StyledTag color={'cyan'}>Laravel</StyledTag>,
 
+            <StyledTag color={'magenta'}>PostgreSQL</StyledTag>,
+            <StyledTag color={'magenta'}>Redis</StyledTag>,
+            <StyledTag color={'magenta'}>Docker</StyledTag>,
             <StyledTag color={'magenta'}>Cypress</StyledTag>,
             <StyledTag color={'magenta'}>Git</StyledTag>,
             <StyledTag color={'magenta'}>Amplitude</StyledTag>,

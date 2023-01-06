@@ -264,7 +264,7 @@ const Latin = () => {
     '...',
     'How I almost forgot to warn, that your armpits shall not stink',
     'Of a savage, goat smell, nor shall your legs be hairy',
-    'But I don not teach Caucasian girls',
+    'But I do not teach Caucasian girls',
     'Who drink the waters of the Mysian River',
     '...',
   ];
