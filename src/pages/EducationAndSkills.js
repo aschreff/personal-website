@@ -57,11 +57,13 @@ const EducationAndSkills = () => {
             <StyledTag color={'cyan'}>Django</StyledTag>,
             <StyledTag color={'cyan'}>React</StyledTag>,
             <StyledTag color={'cyan'}>React Native</StyledTag>,
+            <StyledTag color={'cyan'}>Node</StyledTag>,
             <StyledTag color={'cyan'}>Flask</StyledTag>,
             <StyledTag color={'cyan'}>AngularJS</StyledTag>,
             <StyledTag color={'cyan'}>Laravel</StyledTag>,
 
             <StyledTag color={'magenta'}>PostgreSQL</StyledTag>,
+            <StyledTag color={'magenta'}>MongoDB</StyledTag>,
             <StyledTag color={'magenta'}>Redis</StyledTag>,
             <StyledTag color={'magenta'}>Docker</StyledTag>,
             <StyledTag color={'magenta'}>Cypress</StyledTag>,
