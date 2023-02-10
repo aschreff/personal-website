@@ -9,6 +9,24 @@ import GeneralContentRow from '../components/global/GeneralContentRow';
  */
 const Work = () => {
   const jobs = [
+  {
+      title: 'Shiftsmart',
+      position: 'Software Engineer',
+      year: '2023-Present',
+      descriptions: [
+        {
+          type: 'paragraph',
+          content:
+            'Shiftsmart is a startup focused on building a platform the revolutionizes labor. It empowers hourly workers to find more work, increase their earnings, and control their own schedules, while also enabling employers to increase fulfillment, reduce turnover, and improve quality. The platform enables the largest companies and government agencies to fractionalize jobs into shifts and manage schedules, workers, and assignments all in one place.',
+        },
+        {
+          type: 'paragraph',
+          content:
+            'I am currently working as a full-stack software engineer.'
+        },
+      ],
+      image: '/imgs/shiftsmart.png',
+    },
     {
       title: 'DoorDash',
       position: 'Software Engineer',

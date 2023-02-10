@@ -47,8 +47,9 @@ const Home = () => {
           <Divider />
           <Paragraph>
             Full-stack developer with a focus on front-end web development. I
-            also have experience in automated systems. I've previously worked
-            for DoorDash, Bbot (an online ordering start-up), and Cabot Oil and
+            also have experience in automated systems. I am currently working
+            as a Software Engineer for Shiftsmart. I've previously worked for 
+            DoorDash, Bbot (an online ordering start-up), and Cabot Oil and
             Gas.
           </Paragraph>
           <Divider />
