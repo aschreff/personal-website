@@ -19,7 +19,7 @@ const LoadingPage = () => {
 
   useEffect(() => {
     setTimeout(
-      () => setLoadingMessage('Please wait while we are fetching data...'),
+      () => setLoadingMessage('Please wait while I fetch some data...'),
       4000
     );
     setTimeout(
