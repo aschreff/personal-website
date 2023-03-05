@@ -37,9 +37,9 @@ const Latin = () => {
             One of my interests is Latin. My favorite poet is Ovid, who wrote
             such works as Metamorphoses, Ars Amatoria, Amores, and Remedia
             Amoris. In my free time, I like to create original translations of
-            his works. Currently, I am finished with Ars Amatoria Book I, most
-            of Ars Amatoria Book II, and a small portions of Ars Amatoria Book
-            III and Remedia Amoris. You can check out my progress below.
+            his works. Currently, I am finished with Ars Amatoria Book I and II. 
+            I am currently working on Ars Amatoria Book III. You can check out 
+            my progress below.
           </Paragraph>
         </LatinOverview>
       </Row>
