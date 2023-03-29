@@ -50,7 +50,6 @@ const EducationAndSkills = () => {
             <StyledTag color={'red'}>TypeScript</StyledTag>,
             <StyledTag color={'red'}>HTML</StyledTag>,
             <StyledTag color={'red'}>CSS</StyledTag>,
-            <StyledTag color={'red'}>GraphQL</StyledTag>,
             <StyledTag color={'red'}>PHP</StyledTag>,
             <StyledTag color={'red'}>MATLAB</StyledTag>,
 
@@ -58,6 +57,9 @@ const EducationAndSkills = () => {
             <StyledTag color={'cyan'}>React</StyledTag>,
             <StyledTag color={'cyan'}>React Native</StyledTag>,
             <StyledTag color={'cyan'}>Node</StyledTag>,
+            <StyledTag color={'cyan'}>MobX</StyledTag>,
+            <StyledTag color={'cyan'}>Remix</StyledTag>,
+            <StyledTag color={'cyan'}>FeathersJS</StyledTag>,
             <StyledTag color={'cyan'}>Flask</StyledTag>,
             <StyledTag color={'cyan'}>AngularJS</StyledTag>,
             <StyledTag color={'cyan'}>Laravel</StyledTag>,
@@ -69,7 +71,6 @@ const EducationAndSkills = () => {
             <StyledTag color={'magenta'}>Cypress</StyledTag>,
             <StyledTag color={'magenta'}>Git</StyledTag>,
             <StyledTag color={'magenta'}>Amplitude</StyledTag>,
-            <StyledTag color={'magenta'}>Chronosphere</StyledTag>,
 
             <StyledTag color={'purple'}>AWS Lambda</StyledTag>,
             <StyledTag color={'purple'}>AWS S3</StyledTag>,
