@@ -1771,7 +1771,7 @@ export const ArsAmatoriaBookThreeLines = [
   'And whom you, plunderer of Troy, did not foolishly hold.',
   'The crowd comes to be taught, beautiful and ugly girls,',
   'And many are always poor in riches.',
-  'The beatiful do not seek this work or art or instruction,',
+  'The beautiful do not seek this work or art or instruction,',
   'They have their dowry, beauty is capable without skill.',
   'When the sea is calm, a sailor rests secure,',
   'When it swells, he attends to his aids.',
