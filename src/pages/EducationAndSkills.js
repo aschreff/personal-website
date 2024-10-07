@@ -60,6 +60,8 @@ const EducationAndSkills = () => {
             <StyledTag color={'cyan'}>MobX</StyledTag>,
             <StyledTag color={'cyan'}>Remix</StyledTag>,
             <StyledTag color={'cyan'}>FeathersJS</StyledTag>,
+            <StyledTag color={'cyan'}>NestJS</StyledTag>,
+            <StyledTag color={'cyan'}>GraphQL</StyledTag>,
             <StyledTag color={'cyan'}>Flask</StyledTag>,
             <StyledTag color={'cyan'}>AngularJS</StyledTag>,
             <StyledTag color={'cyan'}>Laravel</StyledTag>,
