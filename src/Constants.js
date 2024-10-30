@@ -2405,13 +2405,13 @@ export const CatullusTwoLines = [
   'Let me be play with you just as her,',
   'And lighten the cares of a heavy heart.',
   '[So they say it is pleasing for me,',
-  'For the golden appleto have belonged to the swift girl,',
+  'For the golden apple to have belonged to the swift girl,',
   'Which loosened her girdle, tied for a long time.]',
 ];
 
 export const CatullusThreeLines = [
   'Mourn, o Venus and Cupid,',
-  'And how many more beautidful people.',
+  'And how many more beautiful people.',
   'The sparrow of my girl has died,',
   'Sparrow, delight of my girl,',
   'Whom she used to love more with her eyes.',
@@ -2476,3 +2476,64 @@ export const CatullusFiveLines = [
   'Or a loathsome man cannot cast an evil eye,',
   'When he may discover such a great number of kisses.'
 ];
+
+export const CatullusSixLines = [
+  'Flavius, you would want to speak your pleasures to Catullus,',
+  'That they were not unpleasant and inelegant,',
+  'And you would not be able to keep quiet.',
+  'I truly do not know which feverish harlot you prize,',
+  'This is shameful to confess.',
+  'For your couch, fragrant with garlands and Syrian oil,',
+  'Calls that you not lay deprived nights,',
+  'Silent in vain.',
+  'The pillow and bolsters, chafed here and there,',
+  'And the creaking and shuffling, your trembling bed shaking.',
+  'Nothing prevails to remain, nothing to be quiet.',
+  "Why? Because you don't spread out your fucked thighs,",
+  'Unless you would make something of folly,',
+  'Hence, whatever you have, good or bad, tell me.',
+  'I want to call you and your loves,',
+  'To the sky with my charming verse.'
+];
+
+export const CatullusSevenLines = [
+  'You ask, my Lesbia, how many of your kissings,',
+  'Would be enough and more than enough for me.',
+  'As great as the number of Libyan sands,',
+  'Which lie on on silphium-bearing Cyrene,',
+  'Between the oracle of sultry Jove,',
+  'And the sacred tomb of aged Battus,',
+  'Or as many stars, when the night is silent,',
+  'Which see the secret loves of men.',
+  'So to kiss you so many kisses,',
+  'Is enough and more than enough for your crazed Catullus,',
+  'Which neither curious ones could count,',
+  'Nor evil tongues bewitch.'
+];
+
+export const CatullusEightLines = [
+  'Miserable Catullus, may you cease to play the fool,',
+  'And may you take as lost that which you see as perished.',
+  'Bright suns once glittered for you,',
+  'When you used to come where your girl led you,',
+  'Loved by us, as much as none will be loved.',
+  'There and then, those many things became light-hearted,',
+  'Which you wanted, nor did your girl not want.',
+  'Truly bright suns did shine for you,',
+  'Already now, she does not desire you,',
+  "You too, helpless man, don't desire her,",
+  "And don't pursue that which flees, don't live miserably,",
+  'But carry on with a resolute mind, endure.',
+  'Goodbye girl, Catullus now endures,',
+  'Nor will he seek you, nor request for you, unwilling,',
+  'But you will be sad, when you are asked for nothing.',
+  'Woe to you, wicked girl, what life remains to you?',
+  'Who now will go to you? To whom will you seem beautiful?',
+  'Whom now will you love? Whose will you call to be?',
+  'Whom will you kiss? Whose little lips will you bite?',
+  'But you, Catullus, resolved, endure.'
+];
+
+export const CatullusNineLines = [];
+
+export const CatullusTenLines = [];
