@@ -2534,6 +2534,54 @@ export const CatullusEightLines = [
   'But you, Catullus, resolved, endure.'
 ];
 
-export const CatullusNineLines = [];
+export const CatullusNineLines = [
+  'Veranius, surpassing all of my friends,',
+  'By three-hundred miles,',
+  'Have you come home to your Penates,',
+  'And you harmonious brothers and old mother?',
+  'You came, oh what wonderful news!',
+  'I will see you unharmed and hear you telling tales,',
+  'Of places, deeds, nations of Iberia, as is your custom,',
+  'Bringing in your delicious neck,',
+  'I will kiss your mouth and your eyes.',
+  'Of all the lucky men,',
+  'Who is luckier than me?'
+];
 
-export const CatullusTenLines = [];
+export const CatullusTenLines = [
+  'My Varus had led me, having been spotted,',
+  'Out of the idle forum to his love',
+  'A harlot, as it then suddenly seemed to me,',
+  'Certainly not unpleasant or unlovely.',
+  'As we come to this place, several chats fell upon us,',
+  'Of which, what Bithynia was now,',
+  'In what fashion was it holding itself,',
+  'Had it been beneficial to me in any manner of coin.',
+  'I replied, because it was true, that there was nothing now,',
+  'Neither for the praetors nor the cohort,',
+  'Whereby one brings back a more anointed head,',
+  'Especially the praetor was a cocksucker to them,',
+  'Nor did he make his cohort of his family.',
+  '"But certainly still," they said,',
+  '"Since it is said they are bred there,',
+  'You arranged men for your litter?"',
+  'I, so that I made myself more lavish to the girl,',
+  'Said, "It was not so wicked for me,',
+  'That, though a bad province had fallen upon me,',
+  'I was not able to arrange eight proper men."',
+  'But there was none to me, neither here nor there,',
+  'Who was able to place the broken leg of an old cot,',
+  'On their shoulder.',
+  'Here, she, as it was proper for a rather lewd woman,',
+  'Said to me, "I beg you, my Catullus,',
+  'Lend them to me for a bit!',
+  'I want to be brought to Serapis."',
+  '"Wait," I told the girl,',
+  '"That which I said just now, that I have them,',
+  'My reckoning escapes me: my companion,',
+  'Cinnast Gaius, he prepared them for himself.',
+  'Truly, whether his or mine, what is it to me?',
+  'I use them so well as if I prepared them for me.',
+  'But you live badly bungling and bothersome,',
+  'Around whom it is not allowed to be careless."'
+];
