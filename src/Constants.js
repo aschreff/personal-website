@@ -2380,7 +2380,7 @@ export const RemediaAmorisLines = [
   '...',
 ];
 
-export const CatullusOneLines = [
+export const Catullus1Lines = [
   'To whom do I give my charming little book,',
   'Just now refined with dry pumice?',
   'For you, Cornelius, for you used to think,',
@@ -2393,7 +2393,7 @@ export const CatullusOneLines = [
   'May remain for more than one timeless century.',
 ];
 
-export const CatullusTwoLines = [
+export const Catullus2Lines = [
   'Sparrow, delight of my girl,',
   'With whom she plays, whom she holds in her bosom,',
   'Grasping it, she gives her ring finger,',
@@ -2409,7 +2409,7 @@ export const CatullusTwoLines = [
   'Which loosened her girdle, tied for a long time.]',
 ];
 
-export const CatullusThreeLines = [
+export const Catullus3Lines = [
   'Mourn, o Venus and Cupid,',
   'And how many more beautiful people.',
   'The sparrow of my girl has died,',
@@ -2430,7 +2430,7 @@ export const CatullusThreeLines = [
   'Become red with tears.',
 ];
 
-export const CatullusFourLines = [
+export const Catullus4Lines = [
   'That light-ship which you saw, friends,',
   'Said she was the fastest of the ships,',
   'That she could pass by any mass of floating timber,',
@@ -2461,7 +2461,7 @@ export const CatullusFourLines = [
   'Twin Castor, and twin of Castor.'
 ];
 
-export const CatullusFiveLines = [
+export const Catullus5Lines = [
   'Let us live, my Lesbia, and let us love,',
   'And let us judge all the rumors,',
   'Of grumpy old men at one as.',
@@ -2477,7 +2477,7 @@ export const CatullusFiveLines = [
   'When he may discover such a great number of kisses.'
 ];
 
-export const CatullusSixLines = [
+export const Catullus6Lines = [
   'Flavius, you would want to speak your pleasures to Catullus,',
   'That they were not unpleasant and inelegant,',
   'And you would not be able to keep quiet.',
@@ -2496,7 +2496,7 @@ export const CatullusSixLines = [
   'To the sky with my charming verse.'
 ];
 
-export const CatullusSevenLines = [
+export const Catullus7Lines = [
   'You ask, my Lesbia, how many of your kissings,',
   'Would be enough and more than enough for me.',
   'As great as the number of Libyan sands,',
@@ -2511,7 +2511,7 @@ export const CatullusSevenLines = [
   'Nor evil tongues bewitch.'
 ];
 
-export const CatullusEightLines = [
+export const Catullus8Lines = [
   'Miserable Catullus, may you cease to play the fool,',
   'And may you take as lost that which you see as perished.',
   'Bright suns once glittered for you,',
@@ -2534,7 +2534,7 @@ export const CatullusEightLines = [
   'But you, Catullus, resolved, endure.'
 ];
 
-export const CatullusNineLines = [
+export const Catullus9Lines = [
   'Veranius, surpassing all of my friends,',
   'By three-hundred miles,',
   'Have you come home to your Penates,',
@@ -2548,7 +2548,7 @@ export const CatullusNineLines = [
   'Who is luckier than me?'
 ];
 
-export const CatullusTenLines = [
+export const Catullus10Lines = [
   'My Varus had led me, having been spotted,',
   'Out of the idle forum to his love',
   'A harlot, as it then suddenly seemed to me,',
@@ -2584,4 +2584,119 @@ export const CatullusTenLines = [
   'I use them so well as if I prepared them for me.',
   'But you live badly bungling and bothersome,',
   'Around whom it is not allowed to be careless."'
+];
+
+export const Catullus11Lines = [
+  'Furius and Aurelius, comrades of Catullus,',
+  'Whether he will venture into distant India,',
+  'Where the shore is beaten by the long-echoing,',
+  'Eoan wave,',
+  'Or into Hyrcanos or soft Arabia,',
+  'Or to Sagos and Parthos, armed with bow,',
+  'Or the seas, colored by the seven-fold,',
+  'Nile river,',
+  'Whether he will step across the high Alps,',
+  'Spying the monuments of great Caesar,',
+  'The Gallic Rhine, and the horrible and furthest,',
+  'Britons,',
+  'All these things, whatever will bears the heavens,',
+  'Are likewise ready to be tried,',
+  'Announce something of malice, having been said,',
+  'To my girl.',
+  'While she lives, and is well with her whores,',
+  'Three-hundredn of whom she holds in her embrace,',
+  'Truly loving none, but often breaking the guts,',
+  'Of all.',
+  'Let her not respect my love as before,',
+  'Which died due to her fault,',
+  'Just as a flow of the last meadow,',
+  'Past after being touched by a going plow.'
+];
+
+export const Catullus12Lines = [
+  'Asinius Marrucinus, you do not use your left hand,',
+  'Delightfully in jest or in wine,',
+  'You steal away napkins more carelessly.',
+  'You think this was salty? It escapes you, treacherous one,',
+  'A dirty and unattractive a thing it is.',
+  "You don't believe me? Believe your brother Pollio,",
+  'Who wishes your thefts to be forgotten,',
+  'Even at a talent.',
+  'For he is a boy stuffed with charm and wit,',
+  'Therefore, expect three-hundred hendecasyllables,',
+  'Or send me back my napkin.',
+  'Which moves me not in value,',
+  'But as a true reminder of my friend.',
+  'For Veranius and Fabullus sent me,',
+  'Saetaban napkins from Iberia as a gift.',
+  'And so it is necessary that I love these,',
+  'As I do my Veranius and Fabullus.'
+];
+
+export const Catullus13Lines = [
+  'You will dine well at my house, my Fabullus,',
+  'In a few days, if the gods favor you,',
+  'If you bring forth a good and large dinner,',
+  'Not without a bright girl,',
+  'And wine and salt and all the laughter.',
+  'If, I ask, you bring these, our beloved one,',
+  'You will dine well, for the little bag of your Catullus,',
+  'Is filled with cobwebs.',
+  'But on the other hand, you will receive undiluted loves,',
+  'Or whatever is more pleasant or elegant.',
+  'For I will give you perfume,',
+  'Which the Venuses and Cupids gave to my girl,',
+  'And when you smell it, you will ask the gods,',
+  'That they make you all-nose, Fabullus.'
+];
+
+export const Catullus14Lines = [
+  'If I did not love you more than my eyes,',
+  'Most charming Calvus, I would have hated you,',
+  'As I hate Vatinius, because of that gift.',
+  'Whether it was what I did or what I said,',
+  'Why would you destory me so badly with all these poets?',
+  'The gods may give many bad things to that follower,',
+  'Who sent such impious things to you.',
+  'Because if, as I suspect, Sulla the teacher,',
+  'Gives this newly discovered gift to you,',
+  'It is not bad to me, but good and fortunate,',
+  'Because your labors are not lost.',
+  'Great gods, that horrible and sacred little book,',
+  'Which you surely sent to your Catullus,',
+  'So that he would immediately die,',
+  'On the day of the Saturnalia, best of days.',
+  'So no, this will not go away for you, witty one,',
+  'For, when it is dawn, I will run to the chests of the libraries,',
+  'I will collect everything poisonous,',
+  'Caesii, Aquini, and Suffenus,',
+  'And I will reward you with these tortures.',
+  'Meanwhile, goodbye to you all from here,',
+  'Depart from there, where you bore a bad foot,',
+  'Unfit ones of this age, worst of poets.',
+  '[If, by chance, he who will be a reader,',
+  'Of my absurdities, and will not tremble,',
+  'To move your hands to us...]'
+];
+
+export const Catullus15Lines = [
+  'I entrust myself and my loves to you, Aurelius,',
+  'I bashfully beg a kindess,',
+  'That, if you desired anything in your heart,',
+  'Which you wished to be pure and unharmed,',
+  'Preserve the chastity of my boy,',
+  'Not from the people, I say,',
+  'I do not revere those who go by on the street, now here,',
+  'Now there, occupied in their own business,',
+  'Truly, I afraid of you and your penis,',
+  'Having molestedgood boys and bad.',
+  'Set it in motion in the place where it is pleasing, as it pleases,',
+  'However much you want, when it is out, ready.',
+  'I bashfully rescue this one, as I reckon.',
+  'Because, if a malicious mind and a mad frenzy,',
+  'Will impel you to such fault, wicked one,',
+  'As you harass my head with treacheries,',
+  'Then misery to you and your terrible fate,',
+  'Whom, with feet dragged and gate open,',
+  'Gray mullets and radishes will pass by!'
 ];

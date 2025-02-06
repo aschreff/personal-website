@@ -7,16 +7,21 @@ import {
   ArsAmatoriaBookTwoLines, 
   ArsAmatoriaBookThreeLines, 
   RemediaAmorisLines,
-  CatullusOneLines,
-  CatullusTwoLines,
-  CatullusThreeLines,
-  CatullusFourLines,
-  CatullusFiveLines,
-  CatullusSixLines,
-  CatullusSevenLines,
-  CatullusEightLines,
-  CatullusNineLines,
-  CatullusTenLines,
+  Catullus1Lines,
+  Catullus2Lines,
+  Catullus3Lines,
+  Catullus4Lines,
+  Catullus5Lines,
+  Catullus6Lines,
+  Catullus7Lines,
+  Catullus8Lines,
+  Catullus9Lines,
+  Catullus10Lines,
+  Catullus11Lines,
+  Catullus12Lines,
+  Catullus13Lines,
+  Catullus14Lines,
+  Catullus15Lines,
 } from '../Constants';
 
 import { Row, Col, Typography, Menu } from 'antd';
@@ -77,43 +82,63 @@ const Latin = () => {
         <Content>
           <CatullusContainer>
             <Title level={5} >Catullus I</Title>
-            <LatinTranslationContent lines={CatullusOneLines} />
+            <LatinTranslationContent lines={Catullus1Lines} />
           </CatullusContainer>
           <CatullusContainer>
-            <Title level={5} >Catullus II [IIA]</Title>
-            <LatinTranslationContent lines={CatullusTwoLines} />
+            <Title level={5} >Catullus II [IIa]</Title>
+            <LatinTranslationContent lines={Catullus2Lines} />
           </CatullusContainer>
           <CatullusContainer>
             <Title level={5} >Catullus III</Title>
-            <LatinTranslationContent lines={CatullusThreeLines} />
+            <LatinTranslationContent lines={Catullus3Lines} />
           </CatullusContainer>
           <CatullusContainer>
             <Title level={5} >Catullus IV</Title>
-            <LatinTranslationContent lines={CatullusFourLines} />
+            <LatinTranslationContent lines={Catullus4Lines} />
           </CatullusContainer>
           <CatullusContainer>
              <Title level={5} >Catullus V</Title>
-             <LatinTranslationContent lines={CatullusFiveLines} />
+             <LatinTranslationContent lines={Catullus5Lines} />
           </CatullusContainer>
           <CatullusContainer>
              <Title level={5} >Catullus VI</Title>
-             <LatinTranslationContent lines={CatullusSixLines} />
+             <LatinTranslationContent lines={Catullus6Lines} />
           </CatullusContainer>
           <CatullusContainer>
              <Title level={5} >Catullus VII</Title>
-             <LatinTranslationContent lines={CatullusSevenLines} />
+             <LatinTranslationContent lines={Catullus7Lines} />
           </CatullusContainer>
           <CatullusContainer>
              <Title level={5} >Catullus VIII</Title>
-             <LatinTranslationContent lines={CatullusEightLines} />
+             <LatinTranslationContent lines={Catullus8Lines} />
           </CatullusContainer>
           <CatullusContainer>
              <Title level={5} >Catullus IX</Title>
-             <LatinTranslationContent lines={CatullusNineLines} />
+             <LatinTranslationContent lines={Catullus9Lines} />
           </CatullusContainer>
           <CatullusContainer>
              <Title level={5} >Catullus X</Title>
-             <LatinTranslationContent lines={CatullusTenLines} />
+             <LatinTranslationContent lines={Catullus10Lines} />
+          </CatullusContainer>
+          <CatullusContainer>
+             <Title level={5} >Catullus XI</Title>
+             <LatinTranslationContent lines={Catullus11Lines} />
+          </CatullusContainer>
+          <CatullusContainer>
+             <Title level={5} >Catullus XII</Title>
+             <LatinTranslationContent lines={Catullus12Lines} />
+          </CatullusContainer>
+          <CatullusContainer>
+             <Title level={5} >Catullus XIII</Title>
+             <LatinTranslationContent lines={Catullus13Lines} />
+          </CatullusContainer>
+          <CatullusContainer>
+             <Title level={5} >Catullus XIV [XIVa]</Title>
+             <LatinTranslationContent lines={Catullus14Lines} />
+          </CatullusContainer>
+          <CatullusContainer>
+             <Title level={5} >Catullus XV</Title>
+             <LatinTranslationContent lines={Catullus15Lines} />
           </CatullusContainer>
         </Content>
       )}
