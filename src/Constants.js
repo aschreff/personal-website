@@ -2700,3 +2700,41 @@ export const Catullus15Lines = [
   'Whom, with feet dragged and gate open,',
   'Gray mullets and radishes will pass by!'
 ];
+
+export const Catullus16Lines = [
+  '[Excluding, due to this poem being a bit too dirty for this site.]'
+];
+
+export const Catullus17Lines = [
+  'Oh Colonia, you who desire to play on a long bridge,',
+  'And you are prepared to leap forth, but you dread,',
+  'The inept legs od the little bridge, standing on renewed boards,',
+  'Lest it go backwards and fall down into the shallow marsh.',
+  'Then let the bridge become good to you, from your desire,',
+  'On which, even the rites of Salisubsilus may be admired.',
+  'Give this gift of the greatest laughter to me, Colonia.',
+  'I want my certain townsman to go headlong into the mud,',
+  'From your bridge, by both head and feet.',
+  'Truly so the pit is darkest of the whole rotten swamp,',
+  'And where the chasm is so greatly deep.',
+  'A man who is most bungling and does not possess the good sense of a boy,',
+  'Merely two years old, sleeping in the shaking arm of his father.',
+  'A girl with the freshest flower may be married to him--',
+  'And the girl, more tender than a delicate young goat,',
+  'Must be watched over more diligently than the darkest grapes--',
+  'He allows her to play, as it pleases him, and does not make of one iota,',
+  'Nor does he raise himself from his own part, but lies down,',
+  'Just as an alder in a ditch, lame in the hip by a Ligurian axe,',
+  'Feeling everything just so much as if nothing were anywhere,',
+  'Such pure stupidity sees nothing, hears nothing,',
+  "He himself may be, whether he is or isn't, even he doesn't know.",
+  'Now I want to send him going headlong from your bridge,',
+  'If it is possible to suddenly arouse him from foolish listlessness,',
+  'And to leave his backwards soul behind in the grave mud,',
+  'As a mule leaves her iron sandal behind in a clinging pit.'
+];
+
+export const Catullus18To20Lines = [
+  '[Excluding Catullus 18-20.',
+  'It is widely agreed these are not original Catullus poems.]'
+]
