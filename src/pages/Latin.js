@@ -25,6 +25,11 @@ import {
   Catullus16Lines,
   Catullus17Lines,
   Catullus18To20Lines,
+  Catullus21Lines,
+  Catullus22Lines,
+  Catullus23Lines,
+  Catullus24Lines,
+  Catullus25Lines,
 } from '../Constants';
 
 import { Row, Col, Typography, Menu } from 'antd';
@@ -84,76 +89,96 @@ const Latin = () => {
       {selectedKeys.includes('5') && (
         <Content>
           <CatullusContainer>
-            <Title level={5} >Catullus I</Title>
+            <Title level={5}>Catullus I</Title>
             <LatinTranslationContent lines={Catullus1Lines} />
           </CatullusContainer>
           <CatullusContainer>
-            <Title level={5} >Catullus II [IIa]</Title>
+            <Title level={5}>Catullus II [IIa]</Title>
             <LatinTranslationContent lines={Catullus2Lines} />
           </CatullusContainer>
           <CatullusContainer>
-            <Title level={5} >Catullus III</Title>
+            <Title level={5}>Catullus III</Title>
             <LatinTranslationContent lines={Catullus3Lines} />
           </CatullusContainer>
           <CatullusContainer>
-            <Title level={5} >Catullus IV</Title>
+            <Title level={5}>Catullus IV</Title>
             <LatinTranslationContent lines={Catullus4Lines} />
           </CatullusContainer>
           <CatullusContainer>
-             <Title level={5} >Catullus V</Title>
+             <Title level={5}>Catullus V</Title>
              <LatinTranslationContent lines={Catullus5Lines} />
           </CatullusContainer>
           <CatullusContainer>
-             <Title level={5} >Catullus VI</Title>
+             <Title level={5}>Catullus VI</Title>
              <LatinTranslationContent lines={Catullus6Lines} />
           </CatullusContainer>
           <CatullusContainer>
-             <Title level={5} >Catullus VII</Title>
+             <Title level={5}>Catullus VII</Title>
              <LatinTranslationContent lines={Catullus7Lines} />
           </CatullusContainer>
           <CatullusContainer>
-             <Title level={5} >Catullus VIII</Title>
+             <Title level={5}>Catullus VIII</Title>
              <LatinTranslationContent lines={Catullus8Lines} />
           </CatullusContainer>
           <CatullusContainer>
-             <Title level={5} >Catullus IX</Title>
+             <Title level={5}>Catullus IX</Title>
              <LatinTranslationContent lines={Catullus9Lines} />
           </CatullusContainer>
           <CatullusContainer>
-             <Title level={5} >Catullus X</Title>
+             <Title level={5}>Catullus X</Title>
              <LatinTranslationContent lines={Catullus10Lines} />
           </CatullusContainer>
           <CatullusContainer>
-             <Title level={5} >Catullus XI</Title>
+             <Title level={5}>Catullus XI</Title>
              <LatinTranslationContent lines={Catullus11Lines} />
           </CatullusContainer>
           <CatullusContainer>
-             <Title level={5} >Catullus XII</Title>
+             <Title level={5}>Catullus XII</Title>
              <LatinTranslationContent lines={Catullus12Lines} />
           </CatullusContainer>
           <CatullusContainer>
-             <Title level={5} >Catullus XIII</Title>
+             <Title level={5}>Catullus XIII</Title>
              <LatinTranslationContent lines={Catullus13Lines} />
           </CatullusContainer>
           <CatullusContainer>
-             <Title level={5} >Catullus XIV [XIVa]</Title>
+             <Title level={5}>Catullus XIV [XIVa]</Title>
              <LatinTranslationContent lines={Catullus14Lines} />
           </CatullusContainer>
           <CatullusContainer>
-             <Title level={5} >Catullus XV</Title>
+             <Title level={5}>Catullus XV</Title>
              <LatinTranslationContent lines={Catullus15Lines} />
           </CatullusContainer>
           <CatullusContainer>
-             <Title level={5} >Catullus XVI</Title>
+             <Title level={5}>Catullus XVI</Title>
              <LatinTranslationContent lines={Catullus16Lines} />
           </CatullusContainer>
           <CatullusContainer>
-             <Title level={5} >Catullus XVII</Title>
+             <Title level={5}>Catullus XVII</Title>
              <LatinTranslationContent lines={Catullus17Lines} />
           </CatullusContainer>
           <CatullusContainer>
-             <Title level={5} >Catullus XVIII - XX</Title>
+             <Title level={5}>Catullus XVIII - XX</Title>
              <LatinTranslationContent lines={Catullus18To20Lines} />
+          </CatullusContainer>
+          <CatullusContainer>
+             <Title level={5}>Catullus XXI</Title>
+             <LatinTranslationContent lines={Catullus21Lines} />
+          </CatullusContainer>
+          <CatullusContainer>
+             <Title level={5}>Catullus XXII</Title>
+             <LatinTranslationContent lines={Catullus22Lines} />
+          </CatullusContainer>
+          <CatullusContainer>
+             <Title level={5}>Catullus XXIII</Title>
+             <LatinTranslationContent lines={Catullus23Lines} />
+          </CatullusContainer>
+          <CatullusContainer>
+             <Title level={5}>Catullus XXIV</Title>
+             <LatinTranslationContent lines={Catullus24Lines} />
+          </CatullusContainer>
+          <CatullusContainer>
+             <Title level={5}>Catullus XXV</Title>
+             <LatinTranslationContent lines={Catullus25Lines} />
           </CatullusContainer>
         </Content>
       )}

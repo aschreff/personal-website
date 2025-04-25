@@ -2702,7 +2702,7 @@ export const Catullus15Lines = [
 ];
 
 export const Catullus16Lines = [
-  '[Excluding, due to this poem being a bit too dirty for this site.]'
+  '[Excluding, due to this poem being a bit too vulgar for this site.]'
 ];
 
 export const Catullus17Lines = [
@@ -2737,4 +2737,104 @@ export const Catullus17Lines = [
 export const Catullus18To20Lines = [
   '[Excluding Catullus 18-20.',
   'It is widely agreed these are not original Catullus poems.]'
-]
+];
+
+export const Catullus21Lines = [
+  'Aurelius, father of the hungry,',
+  'Not only of these, but however many there were,',
+  'Or are, or will be in some years.',
+  'You desire to [-----] my loves.',
+  'And not secretly, for as soon as you jest with one,',
+  "You are clinging to another's side, you will try every one.",
+  'In vain, for I will seize the traps set for me,',
+  'Before [-----] you.',
+  'And if you would make it sated it, I would be quiet,',
+  'Now I lament this, that the boy will learn,',
+  'To be hungry for me, and to thirst for me.',
+  'Stop then, while it is allowed, out of modesty,',
+  'Lest you make an end, but be [-----].'
+];
+
+export const Catullus22Lines = [
+  'That Suffenus, whom you knew well, Varus,',
+  'The man is charming and witty and cultivated,',
+  'And the same man makes the most verses by far.',
+  'I think that there are a thousand or ten or more,',
+  'Written to him, not restored in palimpset, as it just so happens.',
+  'Royal charts, new books,',
+  'New centers, red ties, parchments,',
+  'Levelled with lead, and everything smoothed with pumice.',
+  'When you read this, that beautiful and sophisticated Suffenus,',
+  'Would seem a goat-milker or backwards ditcher,',
+  'He only recoils and changes.',
+  'Why would we think this?',
+  'He who just recently seemed an elegant man,',
+  'Or, if possible, more tasteful than this manner.',
+  'The same one is blunter than a coarse farm,',
+  'As soon as he touches poetry, and the same man,',
+  'Is never happy and content when he writes poems,',
+  'He rejoices in himself so, and admires himself so much.',
+  'Without doubt, we deceive everyone the same way,',
+  'Nor is there any who cannot see Suffenus in some manner,',
+  'And to whom his deception is attributed,',
+  'But we do not see that which is in the back of his knapsack.'
+];
+
+export const Catullus23Lines = [
+  'Furius, to whom there is neither a servant nor a coffer,',
+  'Nor a bedbug, nor a spider, nor a flame,',
+  'Truly there is a father and a stepmother,',
+  'Whose teeth are even able to chew stone,',
+  'It is noble of you, with your father,',
+  "And with that wooden concubine of your father's",
+  'And no wonder, for you are well with everything,',
+  'You ripen beautifully, you fear nothing,',
+  'Not fires, not grave ruins,',
+  'Not disloyal things done, not deceptions of poison,',
+  'Not other chances of danger.',
+  'And you have bodies drier than a horn,',
+  'Or if there is something drier,',
+  'Because of the sun and cold and hunger.',
+  'So, would there be nothing good and fortunate to you?',
+  'Sweat is absent from you, and spit,',
+  'And mucus, and bad phlegm of the nose.',
+  'And to this cleanliness of cleanlinesses,',
+  'That your ass is cleaner than a salt cellar,',
+  'And you do not shit ten times in a whole year,',
+  'And it is harder than a bean and stones,',
+  'Which, if you would chafe and rub with your hands,',
+  'You would never be able to stain a finger.',
+  'Do not spurn these fortunate conveniences so,',
+  'Furius, nor think them to be small,',
+  'And cease to beg for the hundred sestertia, as accustomed,',
+  'For you are fortunate enough.'
+];
+
+export const Catullus24Lines = [
+  'Oh, you who are the little flower of the Juventi,',
+  'Not only of these, but of how many there were,',
+  'Or will be in other years hereafter,',
+  'I would have preferred that you give your riches of Mida to that one,',
+  'To whom there is neither a servant nor a coffer,',
+  'Thus, allowing yourself to be loved by him.',
+  '"What? Is the man not beautiful?" you may ask. He is,',
+  'But there is neither a servant nor a coffer to this beauty.',
+  'You can discard and lessen this as you please,',
+  'And that one still has no servant nor coffer.'
+];
+
+export const Catullus25Lines = [
+  '[-----] Thallus, softer than the hair of a rabbit,',
+  'Or the marrow of a goose, or the lowest earlobe',
+  'Or the languid [-----] of an old man and its dusty cobwebs,',
+  'When the divine ram-woman shows the listless ones,',
+  'Give me back my cloak, which you wrapped yourself in,',
+  'And my Saetaban napkin, and Bithynian portraits,',
+  'Stupid one, which you are accustomed to have in public,',
+  'As if belonging to your grandfather,',
+  'Now unglue these from your talons and return them,',
+  'Lest scorched lashes make ugly scrawls,',
+  'On your woolen little side and tender hands,',
+  'And that you may writhe, as a small boat,',
+  'Seized by a great wind in a raging sea.'
+];
