@@ -2838,3 +2838,82 @@ export const Catullus25Lines = [
   'And that you may writhe, as a small boat,',
   'Seized by a great wind in a raging sea.'
 ];
+
+export const Catullus26Lines = [
+  'Furius, our little villa is not set,',
+  'Against the breeze of Auster,',
+  'Nor Favonius, nor fierce Boreas or Apheliotes,',
+  'But truly to fifteen-thousand and two-hundred,',
+  'Oh horrible and pestilential wind!'
+];
+
+export const Catullus27Lines = [
+  'Attendant boy of the aging Falernian,',
+  'Bring me my rather bitter chalices,',
+  'As decrees the law of the mistress Postumia,',
+  'Drunker than the drunkest grape.',
+  'But you, waters, flee to where it pleases you,',
+  'Bane of wine, depart for the serious folk,',
+  'This pure wine if of Bacchus.'
+];
+
+export const Catullus28Lines = [
+  'Comrades of Piso, band of the foolish,',
+  'With little bags made ready and proper,',
+  'Greatest Veranus, and you, my Fabullus,',
+  'Why do you carry on this way?',
+  'Have you not bore both cold and hunger,',
+  'With the good-for-nothing enough?',
+  'For is an expenditure of a petty gain well-known,',
+  'In the tablets at all, as for me? I, who followed my praetor,',
+  'Recall something given as a small gain.',
+  'Oh Memmus, you [-----],',
+  'And while on my back, [-----].',
+  'But, as much as I see, you were equal in fate,',
+  'For you are. [-----].',
+  'Seek noble friends!',
+  'But let the gods and goddesses send malice upon you,',
+  'Disgraces of Romulus and Remus.'
+];
+
+export const Catullus29Lines = [
+  'Who can see this, who can suffer,',
+  'Unless he be shameless and insatiable and a gambler,',
+  'To have Mamurra, which Gallia Comata used to have,',
+  'Before and farthest Britain?',
+  '[----] Romulus, you will see these and bear them?',
+  'And now will that one walk about, arrogant and overflowing,',
+  'Through the nests of all,',
+  'As a white dove or Adonis?',
+  '[----] Romulus, you will see these and bear them?',
+  'You are shameless and insatiable and a gambler.',
+  'Was this the reason, sole emperor,',
+  'That you were in the farthest island of the west,',
+  'So that [-----] of yours',
+  'Would devour twenty or thirty million?',
+  'What other wicked gift is there?',
+  'Did he spread out too little, or was he less a glutton?',
+  'First the good fatherlands were torn to pieces,',
+  'Second the Pontican prize, then third,',
+  'Iberia, which the gold-bearing Tagus river knows.',
+  'He fears this of Gaul and Britain,',
+  'Why do you have this bad man? Or what can he devour,',
+  'Unless it be our anointed inheritances?',
+  'Was this the reason, oh most holy of the city,',
+  'That you have destroyed everything, father- and son-in-law?'
+]
+
+export const Catullus30Lines = [
+  'Alfenus, heedless and falsely harmonious with your comrades,',
+  'Would nothing now have you take pity of your sweet little friend, hard one?',
+  'Now you hesitate to betray me, to deceive me, faithless one?',
+  'Do the impious things done by treacherous men now please the gods?',
+  'You disregard and forsake miserable me in malice,',
+  'Alas, tell me, what would men do, or whom would they trust?',
+  'Certainly, you bid to deliver your heart safely, unjust one,',
+  'Leading me into love, as if everything were safe for me.',
+  'Now you withdraw yourself the same, and you let the winds and towering clouds,',
+  'Bear away all your words and things done in vain.',
+  'So you are forgetful, but the gods have remembered, Faith has remembered,',
+  'Who will soon make you repent of your deed.'
+];
