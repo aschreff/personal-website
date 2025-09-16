@@ -46,15 +46,13 @@ const Home = () => {
           <Title level={3}>Software Engineer</Title>
           <Divider />
           <Paragraph>
-            Full-stack developer with a focus on front-end web development. I
-            also have experience in automated systems. I am currently working
-            as a Software Engineer for Shiftsmart. I've previously worked for 
-            DoorDash, Bbot (an online ordering start-up), and Cabot Oil and
-            Gas.
+            I am a full-stack software engineer with additional experience in automated systems.
+            Currently, I am  Software Engineer for Shiftsmart, a start-up focused on providing accessible hourly labor to partners on our platform. 
+            I've also worked for DoorDash, Bbot (an online ordering start-up), and Cabot Oil and Gas.
           </Paragraph>
           <Divider />
           <Paragraph>
-            Some of my other interests are cooking, guitar, trail running,
+            Some of my other interests are rock climbing, cooking, guitar, trail running,
             hiking, Latin, and traveling.
           </Paragraph>
         </OverviewColumn>

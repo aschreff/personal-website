@@ -2917,3 +2917,82 @@ export const Catullus30Lines = [
   'So you are forgetful, but the gods have remembered, Faith has remembered,',
   'Who will soon make you repent of your deed.'
 ];
+
+export const Catullus31Lines = [
+  'Sirmio, mostly of islands and darling of islands,',
+  'Which Neptune bears on all sides,',
+  'In stagnant waters and a vast sea,',
+  'How gladly and happily I visited you,',
+  'Scarcely believing that I left Thynia and the Bithynian plains,',
+  'And that I see you in safety.',
+  'Oh, what is better than loosened cares,',
+  'When a mind bears a burden,',
+  'And we, wearied from exotic work, come to our home,',
+  'And acquiesce to our longed-for bed?',
+  'This is because one is for such labors.',
+  'Hello, oh charming Sirmio, and rejoice in your master returning,',
+  'And you, Lydian waters of the lake,',
+  'Laugh of whatever laughter there is at home.'
+];
+
+export const Catullus32Lines = [
+  'I will love you, my sweet Ipsitilla,',
+  'My whims, my graces,',
+  'By order, I would come to you after a nap.',
+  'And if you would order it, help that,',
+  'No one would cover the panel of your threshold,',
+  'Nor would it please you to go outside.',
+  'But you would remain at home,',
+  'And sustain nine fair [-----] for us.',
+  'Truly, if you would do such a thing, order it at once,',
+  'For I lay breakfasted, and flat, well-fed,',
+  'Having perforated through both tunic and cloak.'
+];
+
+export const Catullus33Lines = [
+  'Oh, greatest of thieves of the baths,',
+  'Father Vibennius and [-----] of a son,',
+  'For the father is with a more corrupt right hand,',
+  'The son with a more insatiable [-----].',
+  'Why not go into exile and wicked shores,',
+  'Seeing that the rapes of your father are known to the people,',
+  'And you, son, could not sell your hairy ass for an as.'
+];
+
+export const Catullus34Lines = [
+  'We are girls and fresh boys of Diana in faith,',
+  'We sing to Diana, girls and fresh boys.',
+  'Oh Latonia, best offspring of greatest Jove,',
+  'Whose mother laid her down near the Delian olive tree,',
+  'So that you would be the mistress of the mountains,',
+  'And the green woods and the hidden glades,',
+  'And the echoing streams.',
+  'You, called Juno Lucina by suffering women in childbirth,',
+  'You, called mighty Trivia and Luna by false light.',
+  'You, goddess, measuring an annual journey by monthly course,',
+  'Fill up the rustic roofs of farmers with good crops.',
+  'Let yourself be with whatever sacred name pleases you,',
+  'Ancient as accustomed, let you keep safe,',
+  'The race of Romulus in good strength.'
+];
+
+export const Catullus35Lines = [
+  'I want you, papyrus, to tell my friend Caecilius,',
+  'A dear poet, to come to Verona,',
+  'Leaving behind the castles of Novum Comum,',
+  'And the shores of Larius,',
+  'For I want him to receive,',
+  'Certain thoughts of his, and your friend.',
+  'So, if he is wise, he will devour the way,',
+  'Although his fair girl calls him, departing, back,',
+  'A thousand times, and she, seizing both hands,',
+  'Asks him to remain at her neck.',
+  'Who now, if the facts are sent to me,',
+  'Loses him in wild love.',
+  'For from the time she read the established mistress of Dindymus,',
+  'The flames have eaten away,',
+  'At the innermost marrow of the poor girl.',
+  'I forgive you, girl, wiser than the Sapphic muse,',
+  'For, charming Caecilius, the great Mother has just begun.'
+];
+

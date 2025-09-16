@@ -35,6 +35,11 @@ import {
   Catullus28Lines,
   Catullus29Lines,
   Catullus30Lines,
+  Catullus31Lines,
+  Catullus32Lines,
+  Catullus33Lines,
+  Catullus34Lines,
+  Catullus35Lines,
 } from '../Constants';
 
 import { Row, Col, Typography, Menu } from 'antd';
@@ -204,6 +209,26 @@ const Latin = () => {
           <CatullusContainer>
              <Title level={5}>Catullus XXX</Title>
              <LatinTranslationContent lines={Catullus30Lines} />
+          </CatullusContainer>
+          <CatullusContainer>
+             <Title level={5}>Catullus XXXI</Title>
+             <LatinTranslationContent lines={Catullus31Lines} />
+          </CatullusContainer>
+          <CatullusContainer>
+             <Title level={5}>Catullus XXXII</Title>
+             <LatinTranslationContent lines={Catullus32Lines} />
+          </CatullusContainer>
+          <CatullusContainer>
+             <Title level={5}>Catullus XXXIII</Title>
+             <LatinTranslationContent lines={Catullus33Lines} />
+          </CatullusContainer>
+          <CatullusContainer>
+             <Title level={5}>Catullus XXXIV</Title>
+             <LatinTranslationContent lines={Catullus34Lines} />
+          </CatullusContainer>
+          <CatullusContainer>
+             <Title level={5}>Catullus XXXV</Title>
+             <LatinTranslationContent lines={Catullus35Lines} />
           </CatullusContainer>
         </Content>
       )}
