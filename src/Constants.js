@@ -2489,7 +2489,7 @@ export const Catullus6Lines = [
   'The pillow and bolsters, chafed here and there,',
   'And the creaking and shuffling, your trembling bed shaking.',
   'Nothing prevails to remain, nothing to be quiet.',
-  "Why? Because you don't spread out your fucked thighs,",
+  "Why? Because you don't spread out your [-----] thighs,",
   'Unless you would make something of folly,',
   'Hence, whatever you have, good or bad, tell me.',
   'I want to call you and your loves,',
@@ -2996,3 +2996,95 @@ export const Catullus35Lines = [
   'For, charming Caecilius, the great Mother has just begun.'
 ];
 
+export const Catullus36Lines = [
+  'Chronicles of Volusius, paper shit out,',
+  'Loosen a vow for my girl.',
+  'For she vowed at the sacraments of Venus and Cupid,',
+  'If I were restored to her,',
+  'And stopped brandishing my iambs,',
+  'She would give the elite writings of the worst poets,',
+  'To a slow-footed god,',
+  'Scorching on unlucky wood.',
+  'And my girl saw that she charmingly vowed,',
+  'These awful things to humorous rites.',
+  'Now you, oh sprung from the sky-blue sea,',
+  'Who cultivates sacred Idalium and open Urii,',
+  'And Ancona and Cnidus full of reeds,',
+  'And Amathus and Golgi,',
+  'And Dyrrhachium, the inn of Hadria,',
+  'Make the vow received and returned,',
+  'If it is not unlovely or lacking grace.',
+  'But meanwhile, come into the flame,',
+  'Chronicles of Volusius, full of country and boorishness,',
+  'Paper shit out.'
+];
+
+export const Catullus37Lines = [
+  'Lustful tavern, and you companions,',
+  'Nine pillars from the cap-wearing brothers,',
+  'You think that cocks are for you alone,',
+  'That whatever is of the girls, is allowed to you alone,',
+  'To [----] and think the rest of us goats?',
+  'Or, because you dolts sit successively,',
+  'One or two hundred, do you think that I would dare,',
+  'To [----] two hundred seats as one?',
+  'But think: for I would write about all your cocks,',
+  'To the face of the tavern.',
+  'For the girl, who fled from my bosom,',
+  'Loved so much by me, will be loved as much by none.',
+  'For whom, great battles are fought by me,',
+  'She sat in that place. You love her, everyone of good and fortune,',
+  'And indeed, though she is ashamed,',
+  'Everyone of petty and the adulterers of the footprints.',
+  'You before all, Egnatius, one of long hair,',
+  'Son of Celtiberia full of rabbits,',
+  'Whom a dark beard made a good man,',
+  'And teeth rubbed down with Iberian piss.'
+];
+
+export const Catullus38Lines = [
+  'Cornificius, he is unwell, your Catullus,',
+  'And he is laboriously unwell, my god,',
+  'And more and more into days and hours.',
+  'With what comfort did you console him,',
+  'Which is smallest and easiest?',
+  "I'm angry with you. What of my loves?",
+  'What pleases is a bit of consolation,',
+  'More ill-omened than the tears of Simonides.'
+];
+
+export const Catullus39Lines = [
+  'Engatius, because he has bright teeth,',
+  'Gleams everywhere. If one had come to the bench,',
+  'Of a matter when an orator incites wailing,',
+  'There he shines. If one is mourning,',
+  'At the funeral of a pious son,',
+  'When a childless mother laments her only son,',
+  'There he shines. Whoever, wherever, whatever it is,',
+  'He shines. He has this disease,',
+  'Not elegance, as I judge, nor city-wit.',
+  'So, you have been warned, good Egnatius.',
+  'If you were urbane or Sabine or Tiburtine,',
+  'Or a rich Umbrian or a fat Etruscan,',
+  'Or a black and fanged Lanuvian,',
+  'Or a Transpadane, as I too would touch my own people,',
+  'Or anyone, who clearly washes their teeth,',
+  'I would still not want you to shine anywhere.',
+  'For nothing is more foolish than a foolish laugh.',
+  'Now you are a Celtiberian, in Celtiberian land,',
+  'Because everyone pisses, everyone usually rubs down,',
+  'Their brown teeth and gums in the morning.',
+  'So that your teeth are more polished than that,',
+  'This one recommends that you drink more piss.'
+];
+
+export const Catullus40Lines = [
+  'What foul reason drives you,',
+  'Headlong into my iambs, poor Ravidus?',
+  'What god, called upon by you in ill-will,',
+  'Prepares to stir up a frenzied dispute?',
+  'Could it be that you reach into the mouths of the crowd?',
+  'What do you want? Do you choose to be known as you please?',
+  'You will be, seeing that you wanted to love my loves,',
+  'With a long penalty.'
+];
