@@ -3088,3 +3088,106 @@ export const Catullus40Lines = [
   'You will be, seeing that you wanted to love my loves,',
   'With a long penalty.'
 ];
+
+export const Catullus41Lines = [
+  'Ameana, a [-----] girl,',
+  'Asked me for a whole ten-thousand,',
+  'That girl with a rather ugly nose,',
+  'Friend of the debtor Formianus.',
+  'Relatives, whom the girl is in the care of,',
+  'Call upon friends and doctors,',
+  'She is not a sane girl, nor is she accustomed,',
+  'To ask the reflective bronze  the kind of girl she is.'
+];
+
+export const Catullus42Lines = [
+  'Come here hendecasyllables, however many of you,',
+  'All there are everywhere, as many as you are.',
+  'And ugly whore thinks I am a joke,',
+  'And denies that our tablets be returned to me,',
+  'If you can allow.',
+  'Let us pursue her and re-demand them.',
+  'You ask who she is? That one, whom you see,',
+  'Approaching, ugly, farcically  and annoyingly laughing,',
+  'In the face of a Gallic puppy.',
+  'Surround her and demand of her,',
+  '"Rotten whore, return our tablets,',
+  'Return the tablets, rotten whore!",',
+  'Does it make me an as? Oh mire, brothel,',
+  'Or if something can be more depraved!',
+  'But this must not be thought of so much,',
+  'Shout again, in a louder voice,',
+  '"Dirty whore, return our tablets,',
+  'Return the tablets, dirty whore!",',
+  'But we accomplish nothing, nothing is moved.',
+  'A plan and method must be changed for you all,',
+  'If you can accomplish something greater.',
+  'Because if something else is not possible,',
+  'Let us force a blush in the unyielding face of a dog,',
+  '"Good and pure one, return our tablets!'
+];
+
+export const Catullus43Lines = [
+  'Greetings, neither a girl with a small nose,',
+  'Nor a beautiful foot, nor dark eyes,',
+  'Nor long fingers, not a dry wit,',
+  'Nor a truly exceedingly elegant tongue,',
+  'Is a friend of the debtor of Formiae.',
+  'Does Provincia say you are beautiful?',
+  'Is our Lesbia compared to you?',
+  'Oh what a stupid and boorish age!'
+];
+
+export const Catullus44Lines = [
+  'Oh, our farm, whether Sabine or Tiburtine,',
+  '(For they say you are Tiburtine,',
+  'Those who in their heart is not to hurt Catullus,',
+  'But for those who it is in their heart,',
+  'To those, they contend with a wager you are Sabine),',
+  'But whether Sabine or more truly Tiburtine,',
+  'I gladly went into your suburban villa,',
+  'And expelled a bad cough from my chest,',
+  'Which my stomach gave me, not undeservedly,',
+  'While I strove after sumptuous feasts.',
+  'For, while I want to be a Sestian guest,',
+  'I read a speech against the plaintiff Antius,',
+  'Full of poison and pestilence.',
+  'Thus, a frigid cold and frequent cough,',
+  'Shook me everywhere until I fled to your bosom,',
+  'And cured myself with rest and nettle tea.',
+  'Therefore, I, restored, offer you my greatest thanks,',
+  'Because my error was not avenged.',
+  'Nor now, if I read the nefarious scriptures of Sestius,',
+  'Do I so pray for a catarrh and cough, not upon me,',
+  'But that a cold takes Sestius himself,',
+  'Who then calls me, when I read a bad book.'
+];
+
+export const Catullus45Lines = [
+  'Septimius, holding his love in his arms,',
+  'Says to Acme, "My Acme,',
+  'If I do not love you to ruin,',
+  'And I am not prepared to love you continually,',
+  'Through all the years, as much as he who can love most,',
+  'Let myself come to Libya,',
+  'And scorched India, against a grey-eyed lion."',
+  'As he said this, Love, on the left,',
+  'As before on the right, sneezed confirmation.',
+  'But Acme, lightly turning her head,',
+  'And drunk eyes to the sweet boy,',
+  'Having kissed that purple mouth,',
+  'Said, "So, my life Septimius,',
+  'Let us serve this one master everywhere,',
+  'As a flame burns much more greatly and fiercely,',
+  'For me, in my soft marrow."',
+  'As she said this, Love, on the left,',
+  'As before on the right, sneezed confirmation.',
+  'Now, having advanced with a good omen,',
+  'Love with shared hearts and are loved.',
+  'Poor Septimius loves prefers one Acme,',
+  'Over Syria and Britain.',
+  'Faithful Acme makes pleasures and lusts,',
+  'In one Septimius,',
+  'Who sees any luckier people?',
+  'Who sees a more fortunate love?'
+];
