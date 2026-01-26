@@ -3191,3 +3191,68 @@ export const Catullus45Lines = [
   'Who sees any luckier people?',
   'Who sees a more fortunate love?'
 ];
+
+export const Catullus46Lines = [
+  'Now the spring brings back tepid warmths,',
+  'Now the frenzy of the equinocturnal sky,',
+  'Grows quiet with the jovial breezes of Zephyr.',
+  'The Phrygian fields are melted, Catullus,',
+  'And the fertile land of burning-hot Nicaea.',
+  'Let us fly to the famous cities of Asia.',
+  'Now my hasty mind desires to roam,',
+  'Now my happy feet strengthen with zeal.',
+  'Oh goodbye, dear bands of comrades,',
+  'Whom, having set out together far from home,',
+  'Different paths carry back.'
+];
+
+export const Catullus47Lines = [
+  'Porcius and Socration, two left hands of Piso,',
+  'Mange and famine of the world,',
+  'Did that circumcised Priapus place you,',
+  'Before my Fabullus and little Veranius?',
+  'Do you make sumptuously elegant guests by day,',
+  'Do my friends search for invitations at the crossroads?'
+];
+
+export const Catullus48Lines = [
+  'Iuventius, if you would allow me,',
+  'To always kiss your honey-sweet eyes,',
+  'I would kiss all the way to three hundred thousand,',
+  'And it would never seem enough for me,',
+  'Not if the harvest of our kissing,',
+  'Would be more frequent than the dry ears of grain.'
+];
+
+export const Catullus49Lines = [
+  'Most eloquent descendants of Romulus,',
+  'As many as there are and were',
+  'And as many as there will be in other years after,',
+  'Catullus, the worst of all poets,',
+  'Gives his greatest thanks to you, Marcus Tullius,',
+  'So much am I the worst poet of all,',
+  'As you are the best patron of all.'
+];
+
+export const Catullus50Lines = [
+  'Licinius, we played much in my tablets,',
+  'On the idle day of yesterday,',
+  'So we had come together to be indulgent.',
+  'We were playing everywhere, writing verses of ours,',
+  'Now with this meter, now with that meter,',
+  'Replying mutually through laughter and wine.',
+  'And from there, I, aroused by your charm and wit,',
+  'Left, Licinius, that food did not help miserable me,',
+  'And sleep did not quietly touch my eyes,',
+  'But I would turn in my whole bed, untamed in frenzy,',
+  'Longing to see light, that I would talk,',
+  'And at the same time, be with you.',
+  'But yet, my half-dead limbs, weakened after work,',
+  'Were laying on my couch,',
+  'I made this poem for you, delightful one,',
+  'From which you may have discerned my grief.',
+  'Now guard against being reckless, and, darling,',
+  'Guard against spurning our prayers that we begged for,',
+  'Lest Nemesis demand punishment back from you,',
+  'The goddess is violent, beware of harming her.'
+];
