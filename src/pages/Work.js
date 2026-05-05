@@ -20,9 +20,13 @@ const Work = () => {
             'Shiftsmart is a startup focused on building a platform the revolutionizes labor. It empowers hourly workers to find more work, increase their earnings, and control their own schedules, while also enabling employers to increase fulfillment, reduce turnover, and improve quality. The platform enables the largest companies and government agencies to fractionalize jobs into shifts and manage schedules, workers, and assignments all in one place.',
         },
         {
-          type: 'paragraph',
-          content:
-            'I am currently working as a full-stack software engineer.'
+          type: 'list',
+          content: [
+            'Led the engineering side of our Audits & Inspections vertical. I was responsible for architecting the full lifecycle of this portion of our business including partner experience, customer data collection / transformation, and third party integrations.',
+            'Led the engineering side of our partner support division. Created a brand new support chatbot (integrated with VoiceFlow) that could generate answers to partner inquiries, resolve payment and in-shift issues, and submit support tickets through Zendesk',
+            'Integrated our platform with a variety of third party services. These include VoiceFlow, Zendesk, Talkstack, Retell, Replit, FastField, Temple, and Kwal',
+            'Wrote the code that flags potential cases of fraud in the Task List Management section of our app to indicate when a shift may be subject to fraud',
+          ],
         },
       ],
       image: '/imgs/shiftsmart.png',

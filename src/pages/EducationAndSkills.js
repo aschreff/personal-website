@@ -69,13 +69,18 @@ const EducationAndSkills = () => {
             <StyledTag color={'magenta'}>PostgreSQL</StyledTag>,
             <StyledTag color={'magenta'}>MongoDB</StyledTag>,
             <StyledTag color={'magenta'}>Redis</StyledTag>,
+            <StyledTag color={'magenta'}>VertexAI</StyledTag>,
+            <StyledTag color={'magenta'}>Prefect</StyledTag>,
             <StyledTag color={'magenta'}>Docker</StyledTag>,
             <StyledTag color={'magenta'}>Cypress</StyledTag>,
             <StyledTag color={'magenta'}>Git</StyledTag>,
             <StyledTag color={'magenta'}>Amplitude</StyledTag>,
+            <StyledTag color={'magenta'}>DataDog</StyledTag>,
 
             <StyledTag color={'purple'}>AWS Lambda</StyledTag>,
             <StyledTag color={'purple'}>AWS S3</StyledTag>,
+            <StyledTag color={'purple'}>Google Cloud Buckets</StyledTag>,
+            <StyledTag color={'purple'}>Google Cloud BigQuery</StyledTag>,
 
             <StyledTag color={'volcano'}>SolidWorks</StyledTag>,
             <StyledTag color={'volcano'}>Autodesk Inventor</StyledTag>,
