@@ -11,7 +11,7 @@ const { Footer } = Layout;
  */
 const CustomFooter = () => {
   return (
-    <StyledFooter>Developed by Andrew Schreffler, Version 1.4.8</StyledFooter>
+    <StyledFooter>Developed by Andrew Schreffler, Version 2.0.0</StyledFooter>
   );
 };
 
