@@ -47,8 +47,8 @@ const Home = () => {
           <Divider />
           <Paragraph>
             I am a full-stack software engineer with additional experience in automated systems.
-            Currently, I am  Software Engineer for Shiftsmart, a start-up focused on providing accessible hourly labor to partners on our platform. 
-            I've also worked for DoorDash, Bbot (an online ordering start-up), and Cabot Oil and Gas.
+            I've worked for Shiftsmart, DoorDash, Bbot (an online ordering start-up), and Cabot Oil and Gas.
+            Currently, I'm taking a year off of work to travel around the US with my partner Abby and our dog Meelo. We're traveling in a van (Ram Promaster) that my partner and I customized from scatch.
           </Paragraph>
           <Divider />
           <Paragraph>
